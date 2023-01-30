@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://havrylenkovs.github.io/goit-js-hw-08",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "start": "parcel src/*.html --no-cache",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/ --no-cache"
   },
   "repository": {
     "type": "git",
